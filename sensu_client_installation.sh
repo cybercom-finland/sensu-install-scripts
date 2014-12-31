@@ -385,10 +385,10 @@ Install_Requirements() {
 Install_Sensu_Rhel()
 {
     echo "[sensu]
-    name=sensu-main
-    baseurl=http://repos.sensuapp.org/yum/el/6/\$basearch/
-    gpgcheck=0
-    enabled=1" > sensu.repo
+name=sensu-main
+baseurl=http://repos.sensuapp.org/yum/el/6/\$basearch/
+gpgcheck=0
+enabled=1" > sensu.repo
 
     Run_Command "mv sensu.repo /etc/yum.repos.d/sensu.repo"
 
