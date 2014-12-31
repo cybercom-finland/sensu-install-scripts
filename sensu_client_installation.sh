@@ -127,7 +127,7 @@ echo "Sensu SSL mode: $SENSU_SSL_MODE"
 echo "=============================================================="
 echo ""
 
-if [ -z "$RABBITMQ_HOST" ] || [ -z "$RABBITMQ_USER" ] || [ -z "$RABBITMQ_PASSWORD" ] || [ -z "$RABBITMQ_VHOST" ]
+if [ -z "$RABBITMQ_HOST" ] || [ -z "$RABBITMQ_USER" ] || [ -z "$RABBITMQ_PASSWORD" ] || [ -z "$RABBITMQ_VHOST" ]; then
     echo ""
     echo "You need to give RabbitMQ connection details!"
     echo "--rh, --ru, --rpass and --rvh needed."
