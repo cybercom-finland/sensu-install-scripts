@@ -19,7 +19,7 @@ CLIENT_CLOUD_TYPE="cybercom"
 # SSL mode on/off
 #
 # Currently SSL is not used
-SENSU_SSL_MODE="OFF"
+export SENSU_SSL_MODE="OFF"
 
 # Parameters for running the installation script.
 # Please check that these are up to date and update them if needed.
